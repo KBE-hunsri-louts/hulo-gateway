@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class VATCalculatorRouter {
 
     final static int CALCULATOR_API_PORT = 8080;
-    final static String BASE_URI = "http://localhost:"+CALCULATOR_API_PORT;
+    final static String BASE_URI = "http://host.docker.internal:"+CALCULATOR_API_PORT;
 
     /**
      * Looks for requests for the VATCalculator and forwards them to the VATCalculator microservice.
