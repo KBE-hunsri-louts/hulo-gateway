@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ServiceRouter {
 
     final static int CALCULATOR_API_PORT = 8100;
-    final static int CORE_API_PORT = 8080;
+    final static int CORE_API_PORT = 8200;
     final static String BASE_URI = "http://host.docker.internal:";
 
 
